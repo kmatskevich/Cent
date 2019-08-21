@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "Dollar",
-        "repositoryURL": "https://github.com/ankurp/Dollar",
+        "repositoryURL": "https://github.com/kmatskevich/Dollar",
         "state": {
           "branch": null,
-          "revision": "433d4ba9a3bec8aa739f05cb8505527aab7a30e7",
-          "version": "7.1.0"
+          "revision": "26b7a50b316961479ac9cbb94db5b4176188e8a8",
+          "version": "9.0.1"
         }
       }
     ]

@@ -1,7 +1,15 @@
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
     name: "Cent",
     dependencies: [
-        .Package(url: "https://github.com/ankurp/Dollar", majorVersion: 7, minor: 1)
+        .package(url: "https://github.com/kmatskevich/Dollar", .upToNextMajor(from: "9.0.0"))
+    ],
+    targets: [
+        Target.target(
+            name: "Cent",
+            // зависимость от библиотеки SourceKittenFramework
+            dependencies: ["Dollar"]
+        )
     ])
